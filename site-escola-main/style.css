@@ -30,6 +30,6 @@ body{
     display: block;
 }
 .botao_secundario{
-    background-color: var(--botao-azul); --cinza-secundario:var(--cinza-secundario);
+    background-color: var(--botao-azul);
     border: 2px slid --cinza-principal;
 }
