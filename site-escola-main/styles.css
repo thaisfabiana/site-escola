@@ -1,0 +1,63 @@
+:root{
+    --cor-de-fundo: #D7DDDF;
+    --cinza-primario: #A6B0C8;
+    --cor-do-botao: #E4F3F8;
+    --fonte-texto: 'Arvo';
+    --fonte-titulo: 'Rampart One';
+
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(black);
+    font-family: var(--fonte-texto);
+    font-size: 26px;
+    font-weight: 400;
+    font-family: var(--fonte-titulo);
+    font-size: 46px;
+    font-weight: 500;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.principal{
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: left;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+ .container__botao {
+    background-color: var(--cor-do-botao);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--cinza-primario);
+    display: inline-block;
+    font-family: var(--fonte-texto);
+    font-size: 26px;
+ }
+ .botao-secundario{
+    background-color: var(--cor-do-botao);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--cinza-primario);
+    display: inline-block;
+    font-family: var(--fonte-texto);
+    font-size: 26px;
+
+ }
+ .container__aviso{
+    font-family: var(--fonte-texto);
+    font-size: 26px;
+    color: black;
+ }
+ .container__titulo{
+    font-family: var(--fonte-titulo);
+    font-size: 46px;
+    color: black;
+ }
